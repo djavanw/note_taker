@@ -1,9 +1,10 @@
-var bodyParser = require('body-parser')
-const express = require('express')
-const app = express()
+const bodyParser = require("body-parser");
+const express = require("express");
+const app = express();
+const PORT = process.env.PORT || 3769;
  
 app.get('/', function (req, res) {
-  res.send('Hello World')
+  res.send("If you see this in a browser, then the Server is up and running.")
 })
  
 // parse application/x-www-form-urlencoded
@@ -18,5 +19,6 @@ app.use(function (req, res) {
   res.end(JSON.stringify(req.body, null, 2))
 })
 
-
-app.listen(3000)
+app.listen(PORT, function () {
+  console.log(`This server is up and running on port #${PORT}...`);
+});
