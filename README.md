@@ -39,7 +39,7 @@
   There are no installation instructions that must be followed for a user to use this application.  The user just needs to click the link under deployed application.  Cloning this application to a local server will require the user to run `npm init` and then `npm express path uuid`.
 
 ***
-  ## Technologies Used:
+  ## Technologies:
   - HTML
   - CSS
   - JavaScript
