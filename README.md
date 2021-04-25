@@ -26,13 +26,13 @@
 ***
   ## Screenshots
   ### (Application Deployed on Heroku)
-  ![Application_Deployed](./public/assets/images/)
+  ![Application_Deployed](./public/assets/images/Application_Deployed_on_Heroku.jpeg)
 
   ### (Entering Notes)
-  ![Entering_Notes](./public/assets/images/)
+  ![Entering_Notes](./public/assets/images/Adding_Jazz_Artist.jpeg)
 
   ### (Deleting Notes)
-  ![Deleting_Notes](./public/assets/images/)
+  ![Deleting_Notes](./public/assets/images/Country_Artist_Deleted.jpeg)
 
 ***
   ## Installation:
