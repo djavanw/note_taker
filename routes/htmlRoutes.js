@@ -1,6 +1,4 @@
 const path = require("path");
- 
-
 
 //Routes
 module.exports = (app) => {
